@@ -8,14 +8,14 @@ from passy import password
 import ssl
 import smtplib
 
-email_sender = "mrunalibobde1609@gmail.com"
+email_sender = "Enter sender's gmail"
 email_password = password
 
-email_receiver ="sambhongle25@gmail.com"
+email_receiver ="Enter receiver's gmail"
 
-subject = "AUR BADE"
+subject = "Greetings"
 body="""
-KY CHAL RAHA HAI
+Hello, Good Morning!!
 """
 
 em = EmailMessage()
